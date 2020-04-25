@@ -13,7 +13,7 @@ function appendChildren (parent, children){
         });
 }
 
-var chessboard =  document.getElementById("chessboard");
+var chessboard =  document.getElementById("chessboard-js");
 
 //Créer array pour y inclure tous les éléments <li>
 var chessboardBoxes = [  
