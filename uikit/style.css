@@ -100,13 +100,13 @@ h1 {
     padding:10px;
 }
 
-#chessboard-test, #chessboard {
+.chessboard-test, #chessboard {
     display:flex;
     flex-wrap: wrap; 
     flex-grow:1;
 }
 
-ul#chessboard-test li, ul#chessboard li{
+ul.chessboard-test li, ul#chessboard li{
     list-style: none;
     list-style-position: outside;
     width: 15vw;
