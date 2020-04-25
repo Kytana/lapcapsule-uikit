@@ -100,11 +100,45 @@ h1 {
     padding:10px;
 }
 
+#chessboard-test, #chessboard {
+    display:flex;
+    flex-wrap: wrap; 
+    flex-grow:1;
+}
+
+ul#chessboard-test li, ul#chessboard li{
+    list-style: none;
+    list-style-position: outside;
+    width: 15vw;
+    height: 15vw;
+}
+
+.first-line li:nth-child(odd), .second-line li:nth-child(even), .third-line li:nth-child(odd){
+    background-color:#000;
+}
+
+.first-line li:nth-child(even), .second-line li:nth-child(odd), .third-line li:nth-child(even){
+    background-color:#fff;
+}
+
+ul#chessboard li:nth-child(odd){
+    background-color:#f00;
+}
+
+ul#chessboard li:nth-child(even){
+    background-color:#fff;
+}
+
+
 @media (max-width: 700px) { 
     .list-group, .card {
         width: 90vw;
     }
     .navbar {
         flex-direction:column;
+    }
+    ul#chessboard-test li, ul#chessboard li{
+        width: 25vw;
+        height: 25vw;
     }
  }
