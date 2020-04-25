@@ -1,6 +1,6 @@
 body{
     margin:0;
-    padding:0;
+    padding:20px;
     font-family:"Arial", sans-serif;
 }
 
@@ -26,8 +26,26 @@ h1 {
 .alert {
     color:#721c24;
     background-color:#f5c6cb;
-    border: 1px solid f8d7da;
+    border: 1px solid #f8d7da;
     font-size:17px;
     border-radius:10px;
     padding: 20px; 
+}
+
+.list-group {
+    width:50vw;
+    border: 1px solid #DFDFDF;
+    border-radius:5px;
+    padding: 0px;
+}
+
+.list-group-item {
+    list-style: none;
+    list-style-position: outside;
+    border-bottom: 1px solid #DFDFDF;
+    padding: 20px;
+}
+
+.list-group-item:last-child {
+    border-bottom: none;
 }
