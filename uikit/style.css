@@ -49,3 +49,42 @@ h1 {
 .list-group-item:last-child {
     border-bottom: none;
 }
+
+.card {
+    width:30vw;
+    border: 1px solid #DFDFDF;
+    border-radius:5px;
+}
+
+.card-image {
+    background-image: url("http://placekitten.com/g/200/300");
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 200px;
+}
+
+.card-content {
+    padding:20px;
+}
+
+.card-content h2 {
+    margin:0;
+}
+
+.card-content p {
+    margin:0;
+    font-size:14px;
+    line-height: 1.5em;
+}
+
+.card-content a {
+    display:block;
+}
+
+@media (max-width: 680px) { 
+    .list-group, .card {
+        width:100vw;
+    }
+ }
